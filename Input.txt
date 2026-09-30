@@ -1,0 +1,10 @@
+type: moor
+start: S0
+
+states:
+S0 | q0 / Y0
+S1 | q1 / Y0
+
+transitions:
+S0 S1 X0
+S1 S0 X1
